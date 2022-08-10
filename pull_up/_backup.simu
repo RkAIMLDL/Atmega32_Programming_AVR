@@ -1,0 +1,67 @@
+<circuit animate="0" noLinAcc="5" Simu_Step_nS="1000" type="simulide_0.4" Speed_per="100" Speed_sps="1000000" reactStep="50">
+
+Unique  Id: Node-29: 
+Circuit Id: Node-29
+<item valLabRot="0" Show_id="false" id="Node-29" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-388" circPos="0,0" y="-152" hflip="1" objectName="Node-29" vflip="1" itemtype="Node" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="nan" valLabelx="0"/>
+
+Unique  Id: Fixed Voltage-19: 
+Circuit Id: Fixed Voltage-19
+<item valLabRot="0" Show_id="false" id="Fixed Voltage-19" boardPos="-1e+06,-1e+06" Out="false" boardRot="-1000000" Unit=" V" mainComp="false" labelrot="0" x="-340" circPos="0,0" y="-188" hflip="1" objectName="Fixed Voltage-19" Show_Volt="true" vflip="1" itemtype="Fixed Voltage" Voltage="5" labely="-24" rotation="0" labelx="-64" valLabely="8" circRot="9.5065411457378341e-312" valLabelx="-16"/>
+
+Unique  Id: Push-11: 
+Circuit Id: Push-3
+<item valLabRot="0" Show_id="false" id="Push-3" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-300" Poles="1" Key="" circPos="0,0" Norm_Close="false" y="-220" hflip="1" objectName="Push-11" vflip="1" itemtype="Push" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" valLabelx="0"/>
+
+Unique  Id: Resistor-9: 
+Circuit Id: Resistor-4
+<item valLabRot="0" Show_id="false" id="Resistor-4" boardPos="-1e+06,-1e+06" boardRot="-1000000" Unit=" Ω" mainComp="false" labelrot="0" x="-296" circPos="0,0" y="-152" hflip="1" objectName="Resistor-9" vflip="1" Resistance="100" itemtype="Resistor" labely="-20" rotation="0" labelx="-12" valLabely="14" circRot="0" Show_res="true" valLabelx="-14"/>
+
+Unique  Id: Ground-5: 
+Circuit Id: Ground-5
+<item valLabRot="0" Show_id="false" id="Ground-5" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-388" circPos="0,0" y="-28" hflip="1" objectName="Ground-5" vflip="1" itemtype="Ground" labely="8" rotation="0" labelx="-16" valLabely="0" circRot="-5.4861292803319049e+303" valLabelx="0"/>
+
+Unique  Id: Push-3: 
+Circuit Id: Push-3
+<item valLabRot="0" Show_id="false" id="Push-3" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-348" Poles="1" Key="" circPos="0,0" Norm_Close="false" y="-244" hflip="1" objectName="Push-3" vflip="1" itemtype="Push" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" valLabelx="0"/>
+
+Unique  Id: Led-2: 
+Circuit Id: Led-2
+<item valLabRot="0" Color="0" Show_id="false" id="Led-2" boardPos="-1e+06,-1e+06" Threshold="2.3999999999999999" MaxCurrent="0.029999999999999999" boardRot="-1000000" mainComp="false" Grounded="false" labelrot="0" x="-348" circPos="0,0" y="-152" hflip="1" objectName="Led-2" vflip="1" Resistance="0.59999999999999998" itemtype="Led" labely="-24" rotation="-180" labelx="-16" valLabely="0" circRot="2.9657598677451011e-316" valLabelx="0"/>
+
+Unique  Id: atmega32-1: 
+Circuit Id: atmega32-1
+<item valLabRot="0" Show_id="true" id="atmega32-1" boardPos="-1e+06,-1e+06" Auto_Load="false" Program="" boardRot="-1000000" mainComp="false" labelrot="0" x="-248" circPos="0,0" Init_gdb="false" y="-268" hflip="1" Mhz="16" objectName="atmega32-1" varList="" vflip="1" itemtype="AVR" Logic_Symbol="false" labely="-20" eeprom="" rotation="0" labelx="0" valLabely="0" circRot="0" valLabelx="0"/>
+
+Unique  Id: Connector-8: 
+Circuit Id: Connector-8
+<item valLabRot="0" Show_id="false" enodeid="enode-28" id="Connector-8" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-388" circPos="0,0" pointList="-388,-44,-388,-152" y="-44" hflip="1" objectName="Connector-8" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="Ground-5-Gnd" valLabelx="0" endpinid="Node-29-0"/>
+
+Unique  Id: Connector-10: 
+Circuit Id: Connector-10
+<item valLabRot="0" Show_id="false" enodeid="enode-10" id="Connector-10" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-256" circPos="0,0" pointList="-256,-244,-332,-244" y="-244" hflip="1" objectName="Connector-10" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="atmega32-1-PB2" valLabelx="0" endpinid="Push-3-switch0pinN"/>
+
+Unique  Id: Connector-16: 
+Circuit Id: Connector-16
+<item valLabRot="0" Show_id="false" enodeid="enode-16" id="Connector-16" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-284" circPos="0,0" pointList="-284,-220,-268,-220,-268,-228,-256,-228" y="-220" hflip="1" objectName="Connector-16" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="7.5659844839855919e-307" startpinid="Push-11-switch0pinN" valLabelx="0" endpinid="atmega32-1-PB4"/>
+
+Unique  Id: Connector-20: 
+Circuit Id: Connector-20
+<item valLabRot="0" Show_id="false" enodeid="enode-20" id="Connector-20" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-316" circPos="0,0" pointList="-316,-220,-316,-188,-324,-188" y="-220" hflip="1" objectName="Connector-20" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="Push-11-pinP0" valLabelx="0" endpinid="Fixed Voltage-19-outnod"/>
+
+Unique  Id: Connector-22: 
+Circuit Id: Connector-22
+<item valLabRot="0" Show_id="false" enodeid="enode-22" id="Connector-22" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-312" circPos="0,0" pointList="-312,-152,-332,-152" y="-152" hflip="1" objectName="Connector-22" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="Resistor-9-lPin" valLabelx="0" endpinid="Led-2-lPin"/>
+
+Unique  Id: Connector-27: 
+Circuit Id: Connector-27
+<item valLabRot="0" Show_id="false" enodeid="enode-27" id="Connector-27" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-256" circPos="0,0" pointList="-256,-212,-276,-212,-276,-152,-280,-152" y="-212" hflip="1" objectName="Connector-27" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="atmega32-1-PB6" valLabelx="0" endpinid="Resistor-9-rPin"/>
+
+Unique  Id: Connector-28: 
+Circuit Id: Connector-28
+<item valLabRot="0" Show_id="false" enodeid="enode-28" id="Connector-28" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-364" circPos="0,0" pointList="-364,-152,-388,-152" y="-152" hflip="1" objectName="Connector-28" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="Led-2-rPin" valLabelx="0" endpinid="Node-29-1"/>
+
+Unique  Id: Connector-30: 
+Circuit Id: Connector-30
+<item valLabRot="0" Show_id="false" enodeid="enode-28" id="Connector-30" boardPos="-1e+06,-1e+06" boardRot="-1000000" mainComp="false" labelrot="0" x="-388" circPos="0,0" pointList="-388,-152,-388,-244,-364,-244" y="-152" hflip="1" objectName="Connector-30" vflip="1" itemtype="Connector" labely="-24" rotation="0" labelx="-16" valLabely="0" circRot="0" startpinid="Node-29-2" valLabelx="0" endpinid="Push-3-pinP0"/>
+ 
+</circuit>
